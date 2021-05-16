@@ -1,0 +1,9 @@
+fun int outi(inx: int, iny: int)
+      return inx + iny
+end
+
+fun int main()
+      var x = 99
+      x = outi(5, 15)
+      print(itos(x))
+end

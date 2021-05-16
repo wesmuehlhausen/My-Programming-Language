@@ -1,0 +1,16 @@
+fun nil println(s: int) # s = 14
+  print(itos(s))
+  print(itos(s + 3))    # print 17
+end
+
+fun int f1(x: int, y: int ) # 8 6
+ print(itos(x))
+ print(itos(y))
+ println(x + y) #8 + 6 = 14
+ return 15 + y # return 29
+end
+
+fun int main()
+ var x1 = f1(8,6) #x1 = 29
+ print(itos(x1))  #print 29
+end

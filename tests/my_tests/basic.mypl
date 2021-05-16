@@ -1,0 +1,129 @@
+#type Type1
+#end
+
+#fun char fun1(a: char)
+#	return a
+#end
+
+
+
+
+
+
+type croc
+	var p: int = 43
+end
+
+type bear
+	var z = new croc
+end
+
+type jungle
+	var x: int = 25
+	var y = new bear
+end
+
+fun int main()
+
+	#var c = new croc
+	#print("v1: " + itos(c.p) + "\n")
+	
+	#var b = new bear
+	#print("v2: " + itos(b.z.p) + "\n")
+	
+  var j = new jungle
+  var x: int = 69
+  j.y.z.p = x
+	print("v3 " + itos(j.y.z.p) + "\n")
+	
+	#var a = new jungle
+	#var b: int = a.y.z.p
+	#var b: int = a.x
+	#print(itos(b))
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	#print("hello" + fun1('h') + "\n")
+	#print("str" + 'c' + "\n")
+	#print('c' + "str" + "\n")
+	#print("str" + "str" + "\n")
+	#print('c' + 'c' + "\n")
+	#
+	#print("line1" + "haha" + "\n")
+	#print(itos(40 + 32) + "hello") 
+	#print(itos(40)) 
+	#print("\n" + itos(length("hello")) + "\n")
+	#print(itos(stoi("23")) + "\n")
+	#print(dtos(123.32 + 0.87) + " meters" + "\n")
+	#print(dtos(stod("499.2")) + "\n")
+	#print("jungle" + get(0, "pie") + get(1, "pie") + get(2, "pie"))
+	#print(read())
+	#print(dtos(123.32 - 12.23) + "\n")
+	#print(dtos(125.5 * 2.0) + "\n")
+	#print(dtos(125.5 / 2.0) + "\n")
+	#print(itos(123 - 1212) + "\n")
+	#print(itos(125 * 2) + "\n")
+	#print(itos(125 / 2) + "\n")
+	#var x: int = 24
+	#var x2: int = 34
+	#x = x2
+	#print(itos(x))
+	#
+	#var x: int = 32
+	#var y: int = 11
+	#print(itos(x + y))
+	#print(itos(x + y))
+	#print(itos(y) + "\n")
+	#
+	#if (x < y) then
+	#	if(x < 10) then 
+	#		print("1A")
+	#	else
+	#		print("1B")
+	#	end
+	#elseif (x > y) then 
+	#	if(y < 10) then 
+	#		print("2A")
+	#	else
+	#		print("2B")
+	#	end
+	#else
+	#	print("dummy stoopid")
+	#end
+	#
+	#var z = 23
+	#print(itos(neg z) + "\n")
+	#print(itos(neg (neg z)) + "\n")
+	#
+	#z = 0
+	#while (z < 5) do
+	#	print(itos(z))
+	#	z = z + 1
+	#end
+	#
+	#var c1 = 23
+	#var c2 = 32
+	#var c3 = 43
+	#
+	#var i2 = 0
+	#for i = 0 to 5 do
+	#	print(itos(i2))
+	#	i2 = i2 + 2
+	#end
+	#
+	#print("\n")
+	#
+	#for i = 0 to 9 do
+	#	print(itos(i))
+	#end
+
+end

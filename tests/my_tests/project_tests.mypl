@@ -1,0 +1,6 @@
+#Good project testing ideas
+#1 Test the Step key "s"
+#2 Test the quit key which is any nonbinded key
+#3 Test the skip to end key which is Q
+#4 Test the project by setting breakpoints using 'b' at the initial screen and the skipping to them with 'Q'
+#5 Test the project on a lot of the test files, starting with basic-functions
